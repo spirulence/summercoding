@@ -1,0 +1,31 @@
+---
+layout: default
+title: Leaderboard - Cornell College Summer Coding
+---
+
+<div class="container">
+
+  <div class="starter-template">
+    <h1>Leaderboard - Cornell College Summer Coding</h1>
+    <p class="lead">See how you stack up against the competition.</p>
+  </div>
+  
+  {% for score in site.data.kattis_export %}
+    <h2>{{score.score}} pts</h2>
+    <div class="row score-row">
+        {% for student in score.students %} 
+            <div class="col-md-4">
+                <p><h3>{{student.student}}</h3></p>
+                <p>{{student.solved.size}} problems solved</p>
+                {% for problem in student.solved %}
+                    <h6>{{problem.name}} - {{problem.score}} pts</h6>
+                {% endfor %}
+            </div>
+        {% endfor %}
+    </div>
+  {% endfor %}
+  
+  <p></p>
+  <p>Updated every evening.</p>
+  <p>Created by Cameron Seebach</p>
+</div>

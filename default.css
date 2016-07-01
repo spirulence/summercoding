@@ -1,0 +1,9 @@
+.score-row {
+    border-radius: 5px;
+    background-color: #DAB8E6;
+    margin: 3px;
+}
+
+.score-number {
+    font-size: 2em;
+}
