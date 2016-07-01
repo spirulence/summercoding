@@ -1,0 +1,31 @@
+- score: 21.0
+  students:
+  - solved:
+    - {name: collatz, score: 4.6}
+    - {name: dartscoring, score: 4.5}
+    - {name: prettygoodcuberoot, score: 4.3}
+    - {name: kastenlauf, score: 3.4}
+    - {name: permutationencryption, score: 2.6}
+    - {name: flexible, score: 1.6}
+    student: Eric Andow
+- score: 8.8
+  students:
+  - solved:
+    - {name: collatz, score: 4.6}
+    - {name: permutationencryption, score: 2.6}
+    - {name: flexible, score: 1.6}
+    student: Kat Sayrs
+- score: 6.1
+  students:
+  - solved:
+    - {name: dartscoring, score: 4.5}
+    - {name: flexible, score: 1.6}
+    student: Nam Phan
+- score: 0
+  students:
+  - solved: []
+    student: Brian Hixson-Simeral
+  - solved: []
+    student: Cameron Seebach
+  - solved: []
+    student: Nigel Ticknor
