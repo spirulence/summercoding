@@ -1,31 +1,35 @@
 - score: 21.0
   students:
   - solved:
-    - {name: collatz, score: 4.6}
-    - {name: dartscoring, score: 4.5}
-    - {name: prettygoodcuberoot, score: 4.3}
-    - {name: kastenlauf, score: 3.4}
-    - {name: permutationencryption, score: 2.6}
-    - {name: flexible, score: 1.6}
-    student: Eric Andow
-- score: 8.8
+    - {name: !!python/unicode 'collatz', score: 4.6}
+    - {name: !!python/unicode 'dartscoring', score: 4.5}
+    - {name: !!python/unicode 'prettygoodcuberoot', score: 4.3}
+    - {name: !!python/unicode 'kastenlauf', score: 3.4}
+    - {name: !!python/unicode 'permutationencryption', score: 2.6}
+    - {name: !!python/unicode 'flexible', score: 1.6}
+    student: !!python/unicode 'Eric Andow'
+- score: 15.5
   students:
   - solved:
-    - {name: collatz, score: 4.6}
-    - {name: permutationencryption, score: 2.6}
-    - {name: flexible, score: 1.6}
-    student: Kat Sayrs
-- score: 6.1
+    - {name: !!python/unicode 'dartscoring', score: 4.5}
+    - {name: !!python/unicode 'prettygoodcuberoot', score: 4.3}
+    - {name: !!python/unicode 'anagramcounting', score: 3.2}
+    - {name: !!python/unicode 'bachetsgame', score: 1.9}
+    - {name: !!python/unicode 'flexible', score: 1.6}
+    student: !!python/unicode 'Nam Phan'
+- score: 12.1
   students:
   - solved:
-    - {name: dartscoring, score: 4.5}
-    - {name: flexible, score: 1.6}
-    student: Nam Phan
-- score: 0
+    - {name: !!python/unicode 'collatz', score: 4.6}
+    - {name: !!python/unicode 'howmanydigits', score: 3.3}
+    - {name: !!python/unicode 'permutationencryption', score: 2.6}
+    - {name: !!python/unicode 'flexible', score: 1.6}
+    student: !!python/unicode 'Kat Sayrs'
+- score: 0.0
   students:
   - solved: []
-    student: Brian Hixson-Simeral
+    student: !!python/unicode 'Brian Hixson-Simeral'
   - solved: []
-    student: Cameron Seebach
+    student: !!python/unicode 'Cameron Seebach'
   - solved: []
-    student: Nigel Ticknor
+    student: !!python/unicode 'Nigel Ticknor'
